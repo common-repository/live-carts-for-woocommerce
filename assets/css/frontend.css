@@ -1,0 +1,20 @@
+/*!
+This file is part of Live Carts for WooCommerce. For copyright and licensing information, please see ../../license/license.txt
+*/
+
+.phplugins-live-carts-cart-id {
+	color: #666;
+	font-size: 14px;
+	line-height: 28px;
+	white-space: nowrap;
+}
+
+.wc-block-mini-cart__drawer .phplugins-live-carts-cart-id {
+	position: absolute;
+	bottom: 0;
+	left: 16px;
+}
+
+body.phplugins-live-carts-show-id .wc-block-mini-cart__footer {
+	margin-bottom: 5px;
+}

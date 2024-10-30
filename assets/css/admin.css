@@ -1,0 +1,38 @@
+/*!
+This file is part of Live Carts for WooCommerce. For copyright and licensing information, please see ../../license/license.txt
+*/
+
+#phplugins-live-carts-details-card {
+	background-color: #fff;
+	padding: 0 1.5em;
+	margin-bottom: 1em;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+#phplugins-live-carts-details > a {
+	display: block;
+}
+#phplugins-live-carts-details .form-table table tr > * {
+	padding-left: 0;
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+.woocommerce_page_live-carts-for-woocommerce #the-list .column-status::before, .phplugins-live-carts-status::before {
+	display: inline-block;
+	content: '';
+	margin-right: 0.33em;
+	border-radius: 50%;
+	width: 0.67em;
+	height: 0.67em;
+}
+
+.phplugins-live-carts-converted::before {
+	background: #01bb00;
+}
+.phplugins-live-carts-active::before {
+	background: #bba500;
+}
+.phplugins-live-carts-abandoned::before {
+	background: #bb2400;
+}
